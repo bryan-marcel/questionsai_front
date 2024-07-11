@@ -5,7 +5,7 @@ const Home = () => {
         <div className="bg-gradient-to-b from-blue-500 via-transparent to-white">
             <div className='pt-40 text-center'>
                 <div className='max-w-screen-md mx-auto mb-4'>
-                    <h1 className='text-4xl font-semibold'>QuestionsAI : Votre Générateur de Questions en Ligne Gratuit</h1>
+                    <h1 className='text-4xl font-semibold'>QuestionsAI : </h1>
                 </div>
                 <div className='max-w-screen-md mx-auto'>
                     <p className='text-center'>
