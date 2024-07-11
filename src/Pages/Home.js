@@ -13,9 +13,7 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-            <div>
-                {/* <Generer /> */}
-            </div>
+
         </div>
     )
 }
