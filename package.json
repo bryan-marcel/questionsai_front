@@ -49,6 +49,5 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.4"
-  },
-  "homepage": "https://github.com/bryan-marcel/questionsai_front"
+  }
 }
