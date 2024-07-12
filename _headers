@@ -1,2 +1,2 @@
 /*
-  Content-Security-Policy: script-src 'self' 'wasm-unsafe-eval' 'inline-speculation-rules' 'nonce-{nonce}';
+  Content-Security-Policy: script-src 'self' 'wasm-unsafe-eval' 'inline-speculation-rules' 'nonce-P4USK46R6idOtenUb135wg==';

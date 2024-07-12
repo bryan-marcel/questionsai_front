@@ -19,7 +19,7 @@ const Footer = () => {
 
         emailjs.send('service_43pmv64', 'template_fk7rmkc', templateParams, 'kAEzOSm0C_jiCZecP')
             .then((response) => {
-                toast.success('SUCCESS!', response.status, response.text);
+                toast.success('Nous vous remercions pour votre remarques!', response.status, response.text);
                 // Réinitialiser le formulaire après l'envoi
                 setEmail('');
                 setMessage('');
