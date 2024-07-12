@@ -1,4 +1,7 @@
 import { Outlet, useLocation } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
 import './App.css';
 import Context from './Context/Context';
 import Footer from './Components/Footer';
@@ -18,7 +21,8 @@ function App() {
 
   return (
     <>
-      <Context.Provider>
+      <Context.Provider value={''}>
+        <ToastContainer autoClose={1500} position='top-center' />
         {/* Affiche NavigationEnseignant sauf si c'est '/examen-enseignant' */}
         {showHeader && !isExamHeader && <NavigationEnseignant />}
         {/* Affiche ExamNavigationEnseignant si c'est '/examen-enseignant' */}

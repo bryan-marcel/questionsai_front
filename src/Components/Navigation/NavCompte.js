@@ -20,7 +20,7 @@ function NavCompte() {
         <Menu as="div" className="relative inline-block text-left" >
             <div>
                 <Menu.Button className="inline-flex w-full gap-x-1.5 rounded-full px-3 py-3 ">
-                    <img src={profile} alt="" srcset="" style={{ width: "100%", height: 44 }} className='rounded-full' />
+                    <img src={profile} alt="" srcSet="" style={{ width: "100%", height: 44 }} className='rounded-full' />
                 </Menu.Button>
             </div>
 
@@ -36,7 +36,7 @@ function NavCompte() {
                 <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right left-0 divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                     <div className="py-1">
                         <div className='flex items-center mb-4'>
-                            <img src={profile} alt="" srcset="" style={{ width: 44, height: 44, borderRadius: 50 }} className='ml-2' />
+                            <img src={profile} alt="" srcSet="" style={{ width: 44, height: 44, borderRadius: 50 }} className='ml-2' />
                             <div className='ml-2'>
                                 <h3 className='mb-0'>John Doe</h3>
                                 <h6>johnDoe@gmail.com</h6>

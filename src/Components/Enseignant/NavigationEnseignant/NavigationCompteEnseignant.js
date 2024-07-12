@@ -50,7 +50,7 @@ function NavigationCompteEnseignant() {
                 <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right left-0 divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                     <div className="py-1">
                         <div className='flex items-center mb-4'>
-                            <img src={profile} alt="" srcset="" style={{ width: 44, height: 44, borderRadius: 50 }} className='ml-2' />
+                            <img src={profile} alt="" srcSet="" style={{ width: 44, height: 44, borderRadius: 50 }} className='ml-2' />
                             <div className='ml-2'>
                                 <h3 className='mb-0'>{username}</h3>
                                 <h6>{email}</h6>
